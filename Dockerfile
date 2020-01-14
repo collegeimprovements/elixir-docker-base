@@ -1,7 +1,7 @@
 FROM elixir:1.9.4-alpine as build
 
 # install build dependencies
-RUN apk add --update git build-base openssl curl
+RUN apk add --update git build-base openssl
 
 # prepare build dir
 RUN mkdir /app
